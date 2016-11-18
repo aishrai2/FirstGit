@@ -1,0 +1,167 @@
+body{
+    background-color:aliceblue;
+    
+}
+.title-name{
+    
+    color:#794747;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.menu{
+    background: cadetblue;
+    height: 20px;
+    padding: 10px 0 10px 20px;
+}
+
+.main{
+    text-decoration: none;
+    font-family: "Arial";
+    opacity: 1;
+}
+
+.main:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+#flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    margin-top: -24px;
+    width: 85px;
+    margin-left: 750px;
+    background: cadetblue;
+    border:0;
+    color:blue;
+    z-index:1;
+}
+
+#panel {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    width: 85px;
+    margin-left: 750px;
+    background: cadetblue;
+    z-index:1;
+    position: absolute;
+}
+aside{
+
+    float:left;
+    align-content: center;
+    padding:20px;
+}
+
+article{
+    margin:0 70px 150px 150px;
+}
+
+article img{
+    height: 300px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 20px;
+    z-index: -1;
+}
+.summerPlace{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+    display: inline-block;
+    color: #2d4858;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+.summerPlace:hover{
+    color: #ffffff;
+    border-color: #006698;
+}
+
+.foot{
+    background:grey;
+    font-family: "Arial";
+    font-size: 15px;
+    color: white;
+    padding: 1px 0 1px 5px; 
+}
+ 
+#my-link{
+    text-decoration: none;
+    color:aqua;
+    opacity: 0.5;
+}
+
+#my-link:hover{
+    opacity: 1;
+}
+.page-heading{
+    font-family: "Arial";
+    margin-left:20px;
+}
+
+
+/*********************************************************About Us*****************************************************************************/
+
+#article-about #img-article{
+    height: 200px;
+    width:70%;
+    padding:20px 8px 12px 0;
+    float: left;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+div.description{
+    clear: both;
+}
+
+#article-heads{
+    float: right;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+
+
+/********************************************************Contact Us*****************************************************************************/
+
+#form{
+    
+    margin:0 auto;
+    padding: 10px;
+    width: 434px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 5px 4px;
+}
+#form input.submit-button{
+    width:80px;
+}
+
+#form input.field{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(90, 79, 79, 0.21);
+    height: 17px;
+}
+
+
+#form textarea{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(90, 79, 79, 0.21);
+}
+
+/*****************************************************Registeration*****************************************************************************/
+
+#form input.field{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(90, 79, 79, 0.21);
+    height: 27px;
+}
+

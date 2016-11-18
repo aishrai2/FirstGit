@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
+            });
+        });
+        </script>
+    </head>
+    <body class="container">
+        <header class="title-name"><h1><a href="index.html">ProductionInc</a></h1></header>
+        
+        <nav class="menu">
+            <a href="index.html" target="_blank" class="main">Home</a> &nbsp; &nbsp;
+            <a href="about.html" class="main">About Us</a> &nbsp; &nbsp;
+            <a href="contact.html" target="_blank" class="main">Contact Us</a>
+            <div id="flip" class="main">Click Here</div>
+            <div id="panel">Hello world! <br/> Aish here <br/> WElcome <br/> WElcome <br/> WElcome <br/> WElcome</div>
+        </nav> 
+        <h2 class="page-heading">Contact Us</h2>
+        <aside>
+            <h1>Sidebar</h1>
+        </aside>
+         
+        <article id="article-contact">
+            <div id="form">
+                
+                <form action="Servlet" method="post">
+                    <p>
+                    <label for="name">Name: 
+                        <input class="field" type="text" name="name" placeholder="Enter Your Name">
+                    </label>
+                    </p>
+                    <p>
+                    <label for="email">Email ID: 
+                        <input class="field" type="email" name="email" placeholder="Enter Your Email ID">
+                    </label>
+                    </p>
+                    <p>
+                    <label for="subject">Subject: 
+                        <input class="field" type="text" name="password" placeholder="Enter Subject">
+                    </label>
+                    </p>
+                    <p>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                    </p>
+                    <p>
+                        <label for="submit">
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="submit-button" type="submit" name="submit">
+                        </label>
+                    </p>
+                </form>
+            </div>   
+            
+        </article>
+        <footer class="foot">
+            <p>&copy Aishwarya Rai &nbsp; &nbsp; <span class="break-footer">|</span> &nbsp; &nbsp; Designed By <a href="http://www.facebook.com/aish.rai2" id="my-link" target="_blank">&nbsp;Aishwarya Rai</a></p>
+        </footer>
+    
+    </body>
+
+
+</html>
